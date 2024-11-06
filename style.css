@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, skyblue, white);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, gold, white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+}
+h3 {
+    text-align: center;
+    color:balck;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 370px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+background: linear-gradient(to bottom right, #BDFCC9, white);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#profile-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cv-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#cgpa-section, #my-time-section {
+    margin-top: 10px;
+}
+
+#my-time-section input {
+    margin-bottom: 5px;
+}
+
+ul#cv-my-time {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#cv-my-time li {
+    padding: 2px 0;
+}
+
+/* Gradient background */
+#cvPreview {
+    position: relative;
+    width: 8in;
+    padding: 1in;
+    border: 2px solid black; /* Thin black border */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom right, #BDFCC9, #FFFFFF); /* Light mint green to white gradient */
+}
+
+#cv-profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 0 auto;
+    display: block;
+}
+
+#cv-name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+}
+
+#cv-title {
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+
+#cv-email,
+#cv-location {
+    font-size: 14px;
+    color: gray;
+}
+
+#cv-main-content {
+    margin-top: 1in;
+    text-align: center;
+}
+
+#cv-main-content p,
+#cv-main-content li {
+    font-size: 12px;
+    line-height: 1.5;
+}
